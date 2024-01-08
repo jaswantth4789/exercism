@@ -60,7 +60,7 @@ public class PythagoreanTriplet {
                     triplets.add(new PythagoreanTriplet(a, b, c));
                 }
             }
-            System.out.println(triplets.size());
+            
             for (int i = 0; i < triplets.size()/2; i++) {                
                 triplets2.add(triplets.get(i));
             }
